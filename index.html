@@ -1,17 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/materialize.css">
-    <script src="./js/main.js"></script>
+
     <script src="./js/materialize.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
- </head>
+</head>
+
 <body>
-    <h1>helo</h1>
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card ">
+                <div class="card-content">
+
+                    <!-- <p>WHEN BEING OVERTAKEN:</p> -->
+                    <div id="question"></div>
+                </div>
+                <div class="card-action">
+                    <p>
+                        <label>
+                            <input class="with-gap" name="group3" type="radio" checked />
+                            <!-- <span black-text> You must keep as far left as possible.</span> -->
+                            <div id="answer"></div>
+                        </label>
+                    </p>
+                    <label>
+                        <!-- <input class="with-gap" name="group3" type="radio" checked /> -->
+                        <!-- <span>Do not accelerate.</span> -->
+                    </label>
+                    <p>
+                        <label>
+                            <!-- <input class="with-gap" name="group3" type="radio" checked /> -->
+                            <span>
+                                <p id="answerField"> </p>
+                            </span>
+                        </label>
+                    </p>
+                    <!-- <a class="waves-effect waves-light btn " >Next Quetion</a> -->
+
+                    <!-- <a class="waves-effect waves-light btn " id="btn-next">Answer</a> -->
+                    <button class="btn waves-effect waves-light" type="submit" name="action" id="btn-answer">answer </button>
+
+                    
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Explain answer </button>
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Explain Quetion </button>
+                    <button class="btn waves-effect waves-light" type="submit" name="action" id="btn-next">next Quetion </button>
+
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- <button id="btn-next">Next</button> -->
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
